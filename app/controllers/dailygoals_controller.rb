@@ -1,16 +1,21 @@
 class DailygoalsController < ApplicationController
 
-    def new
+    def index
+        @dailygoals = Dailygoal.all
+    end
+
+        def new
         @dailygoal = Dailygoal.new
     end
 
     def create
+        @dailygoal = Dailygoal.create(dailygoal_params)
+        redirect_to root_path
     end
 
-    def show
-    end
+    private
 
-
-    def edit
+    def dailygoal_params
+        params.require(:dailygoal).permit(:date, :goal1, :goal2, :goal3)
     end
 end

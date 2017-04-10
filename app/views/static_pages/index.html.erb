@@ -1,26 +1,47 @@
 <html>
     <br />
-    <br />
-    <br />
-    <br />
-    <h1 class="text-center"> Good Morning, 
-    <br />
-    Kalen!</h1>
-    <br />
-    <br />
+    <div class="booyah-box col-10 offset-1 text-center">
+        <br />
+        <h1 class="text-center"> Good Morning, 
+        <br />
+        Kalen!</h1>
+        <br />
 
 
-    <h2 class="text-center"> Here's your TED fix: </h2>
-    <br />
-
-    <div class="col-8 offset-2 text-center">
-        <iframe width="738" height="415.5" src="https://www.youtube.com/embed/esD6aaIjhek" frameborder="0" allowfullscreen></iframe>
-    <br />
-    (<a href="https://www.ted.com/talks">Complete list of TED talks</a>)
-    (<a href="https://www.ted.com/surpriseme">TED talks "Surprise me!"</a>)
+        <div class="row feature text-center">
+            <div class="col-12 col-sm">
+                <h3>What's Up?</h3>
+            </div>
+            <div class="col-12 col-sm">
+                <h3>Weekly Goals</h3>            
+                <p><%= Week.last.firstproject %></p>
+                <p><%= Week.last.secondproject %></p>
+                <p><%= Week.last.thirdproject %></p>
+                <br />
+                <%= link_to 'Weekly Goals Archive', weeks_path, class: 'btn btn-primary'%> 
+            </div>
+            <div class="col-12 col-sm">
+                <h3>Daily Goals</h3>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
-    <br />
-    <br />
+    </div> 
 
-    <h2 class="text-center"> (Enjoy the day!)</h2>
+    <br />
+    <div class="booyah-box col-10 offset-1 text-center">
+        <h2 class="text-center"> Here's your TED fix: </h2>
+        <br />
+
+        <div class="col-8 offset-2 text-center">
+            <iframe width="738" height="415.5" src="https://www.youtube.com/embed/esD6aaIjhek" frameborder="0" allowfullscreen></iframe>
+        <br />
+        (<a href="https://www.ted.com/talks">Complete list of TED talks</a>)
+        (<a href="https://www.ted.com/surpriseme">TED talks "Surprise me!"</a>)
+            </div>
+        <br />
+        <h2 class="text-center"> (Enjoy the day!)</h2>
+        </div>
 </html>

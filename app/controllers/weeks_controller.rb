@@ -1,16 +1,16 @@
 class WeeksController < ApplicationController
 
-    def new
+    def index
+        @weeks = Week.all
+    end
+
+        def new
         @week = Week.new
     end
 
     def create
         @week = Week.create(week_params)
         redirect_to root_path
-    end
-
-    def show
-         @weeks = Week.all
     end
 
     private
