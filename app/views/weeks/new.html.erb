@@ -1,0 +1,13 @@
+<br />
+<div class="booyah-box col-10 offset-1">
+    <h1>Add This Week's Goals</h1>
+    <%= simple_form_for @week do |f| %>
+        <%= f.input :weekof %>
+        <%= f.input :firstproject %>
+        <%= f.input :secondproject %>
+        <%= f.input :thirdproject %>
+        <br />
+        <%= f.submit "List This Week's Goals", class: 'btn btn-primary'%>
+        <br />
+    <% end %>
+</div>  
