@@ -16,6 +16,6 @@ class DailygoalsController < ApplicationController
     private
 
     def dailygoal_params
-        params.require(:dailygoal).permit(:date, :goal1, :goal2, :goal3)
+        params.require(:dailygoal).permit(:date, :firstgoal, :secondgoal, :thirdgoal)
     end
 end

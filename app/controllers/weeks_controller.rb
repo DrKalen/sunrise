@@ -5,7 +5,7 @@ class WeeksController < ApplicationController
     end
 
         def new
-        @week = Week.new
+  
     end
 
     def create

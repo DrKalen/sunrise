@@ -1,0 +1,30 @@
+<br />
+<br />
+<div class="booyah-box text-center col-6 offset-3">
+    <h2>What's Up? - Archive</h2>
+    <br />
+    <br />
+    <% @contexts.each do |context| %>
+  <div>
+    <br />
+    <h3><%= context.timeperiod %></h3><br />
+    <p><%= context.first %></p><br />
+    <p><%= context.second %></p><br />
+    <p><%= context.third %></p><br />
+    <p><%= context.fourth %></p><br />
+    <p><%= context.fifth %></p><br />
+<% end %>
+
+    </div>
+
+
+  <hr />
+     <h2>What's Up Now</h2>
+<% Context.last do |context| %>
+      <h3><%= context.timeperiod %></h3><br />
+    <p><%= context.first %></p><br />
+    <p><%= context.second %></p><br />
+    <p><%= context.third %></p><br />
+    <p><%= context.fourth %></p><br />
+    <p><%= context.fifth %></p><br />
+<% end %>

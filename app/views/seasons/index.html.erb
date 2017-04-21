@@ -1,0 +1,23 @@
+<br />
+<br />
+
+<div class="booyah-box text-center col-6 offset-3">
+    <br />
+    <br />
+    <h2>What's Up? - Archive</h2>
+
+
+    <% @seasons.each do |season| %>
+    <div>
+        <br />
+        <h3><%= season.season %></h3><br />
+        <p><%= season.firstfocus %></p><br />
+        <p><%= season.secondfocus %></p><br />
+        <p><%= season.thirdfocus %></p><br />
+        <p><%= season.fourthfocus %></p><br />
+        <p><%= season.fifthfocus %></p><br />
+        <% end %>
+    </div>
+</div>
+
+<hr />

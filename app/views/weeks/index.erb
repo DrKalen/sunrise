@@ -1,9 +1,10 @@
 <br />
 <br />
-<div class="booyah-box text-center col-10 offset-1">
+
+<div class="booyah-box text-center col-6 offset-3">
+    <br />
+    <br />
     <h2>Weekly Goals Archive</h2>
-    <br />
-    <br />
     <% @weeks.each do |week| %>
   <div>
     <br />
@@ -19,13 +20,3 @@
     <% end %>
 
 </div>
-
-<%= Week.last.weekof.inspect %>
-<%= Week.last.firstproject %>
-<br />
-    <h2>This Week's Goals</h2>
-    <% @weeks.last do |week| %>
-        <p><%= week.firstproject %></p><br />
-    <p><%= week.secondproject %></p><br />
-    <p><%= week.thirdproject %></p><br />
-    <% end %>

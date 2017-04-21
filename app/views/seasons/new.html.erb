@@ -1,0 +1,15 @@
+<br />
+<div class="booyah-box col-4 offset-4">
+<h2 class="text-center">Add This Season's Areas of Focus</h2>
+    <%= simple_form_for @season do |f| %>
+        <%= f.input :season %>
+        <%= f.input :firstfocus %>
+        <%= f.input :secondfocus %>
+        <%= f.input :thirdfocus %>
+        <%= f.input :fourthfocus %>
+        <%= f.input :fifthfocus %>
+        <br />
+        <%= f.submit "Save", class: 'btn btn-primary'%>
+        <br />
+    <% end %>
+</div>  

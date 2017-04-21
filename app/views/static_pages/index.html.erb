@@ -5,12 +5,19 @@
         <h1 class="text-center"> Good Morning, 
         <br />
         Kalen!</h1>
-        <br />
+        
 
 
         <div class="row feature text-center">
             <div class="col-12 col-sm">
                 <h3>What's Up?</h3>
+                <p><%= Season.last.firstfocus %></p>
+                <p><%= Season.last.secondfocus %></p>
+                <p><%= Season.last.thirdfocus %></p>
+                <p><%= Season.last.fourthfocus %></p> 
+                <p><%= Season.last.fifthfocus %></p> 
+                <br />                
+                <%= link_to 'What\'s Up Archive', seasons_path, class: 'btn btn-primary'%> 
             </div>
             <div class="col-12 col-sm">
                 <h3>Weekly Goals</h3>            
@@ -22,6 +29,11 @@
             </div>
             <div class="col-12 col-sm">
                 <h3>Daily Goals</h3>
+                <p><%= Dailygoal.last.firstgoal %></p>
+                <p><%= Dailygoal.last.secondgoal %></p>
+                <p><%= Dailygoal.last.thirdgoal %></p>
+                <br />
+                <%= link_to 'Daily Goals Archive', dailygoals_path, class: 'btn btn-primary'%> 
             </div>
             <br />
             <br />
@@ -42,6 +54,6 @@
         (<a href="https://www.ted.com/surpriseme">TED talks "Surprise me!"</a>)
             </div>
         <br />
-        <h2 class="text-center"> (Enjoy the day!)</h2>
+        <h2 class="text-center"> (Enjoy the day and Make It Count!)</h2>
         </div>
 </html>

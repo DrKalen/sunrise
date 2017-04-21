@@ -18,11 +18,21 @@
           </button>
           <%= link_to 'Sunrise', root_path, class: 'navbar-brand' %>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            #to space the links evenly:
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li>
+                <%= link_to 'What\'s Up', new_season_path, class: 'btn btn-primary'%>                
+                </li>
+            </ul>
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                 <li>
                                 <!-- Place to add Button to trigger This Week modal -->
-                <%= link_to 'This Week', new_week_path, class: 'btn btn-primary'%>                </li>
+                <%= link_to 'This Week', new_week_path, class: 'btn btn-primary'%>                
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li>
+                <%= link_to 'Today', new_dailygoal_path, class: 'btn btn-primary'%>                
+                </li>
             </ul>
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
               <li class="nav-item">
@@ -45,25 +55,4 @@
     <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </body>
 </html>
-
-<!-- thisWeekModal -->
-<div class="modal fade" id="thisWeekModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-        <h4 class="modal-title" id="myModalLabel">Input Goals For This Week</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
