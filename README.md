@@ -1,9 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here's a demo of how the features work:
+![DEMO](../master/app/assets/images/licecap_sunrise.gif)
 
-Things you may want to cover:
+To be added:
 
 * Ruby version
 
@@ -22,5 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-![DEMO](../master/images/licecap_sunrise.gif)
 
