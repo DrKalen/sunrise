@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+![DEMO](../master/images/licecap_sunrise.gif)
+![DEMO](../master/app/assets/images/licecap_sunrise.gif)

@@ -2,7 +2,6 @@ class ContextsController < ApplicationController
 
     def index
         @contexts = Context.all
-        @last = Context.last
     end
 
     def new
