@@ -1,25 +1,22 @@
 # README
 
-Here's a demo of how the features work:
-![DEMO](../master/app/assets/images/licecap_sunrise.gif)
+<img src="sunrise_dashboard_app.png”/>
+* The challenge: create a dashboard I can use every day to update quarterly,
+  weekly and daily goals (and archive past goals) and quickly get the weather, view something beautiful, think something inspiring, and (later in the day)
+  get a TED talk fix.
 
-To be added:
+* The solution: A database-powered dashboard with external links
 
-* Ruby version
+* Features:
+    * All-in-one page with locations for
+        * Quarterly goals
+        * Weekly goals
+        * Daily goals
+        * video player for TED talks
+        * links to weather, Unsplash( for beauty) and my Inspire app for inspiration
+    * Forms to add goals
+    * Archive pages for past goals
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Technology: Ruby on Rails with 3 models, databases, and views, HTML, CSS, Google Fonts,
+  FontSquirrel, Bootstrap, SimpleForm.
 
