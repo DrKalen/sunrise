@@ -1,6 +1,6 @@
 # README
 
-<img src="sunrise_dashboard_app.png”/>
+![SCREENSHOT](../master/app/assets/images/sunrise_dashboard_app.png)
 * The challenge: create a dashboard I can use every day to update quarterly,
   weekly and daily goals (and archive past goals) and quickly get the weather, view something beautiful, think something inspiring, and (later in the day)
   get a TED talk fix.
